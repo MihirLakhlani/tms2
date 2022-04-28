@@ -1,24 +1,23 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import SideNavigation from './Component/Table/SideNavigation';
+import Project_Table from './Component/Table/Project_Table';
+import Task_Table from './Component/Table/Task_Table';
+import Employess_Table from './Component/Table/Employess_Table';
+import RoutePages from './RouteOfPages/RoutePages';
+import Project_Forms from './Component/Forms/Project_Forms';
+import Task_Form from './Component/Forms/Task_Form';
+import Employess_Form from './Component/Forms/Employess_Form';
+import Header from './Component/Header';
+import { SignInButton } from './Azure_AD/Login';
+import { ProfileData } from './Azure_AD/Profile';
+import ProfileContent from './Azure_AD/Acc';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <RoutePages/>
+ {/* <ProfileContent/> */}
     </div>
   );
 }

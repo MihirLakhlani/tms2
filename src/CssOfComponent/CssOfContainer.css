@@ -1,0 +1,280 @@
+table {
+    border: 3px solid black;
+  }
+
+
+/* header_css */
+
+.Header_css{
+    width: -webkit-fill-available;
+    height: 60px;
+    top: 0;
+    z-index: 980;
+}
+.Header_css  nav{
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+.Header_css li{
+    padding: 15px 20px;
+    float: left;
+    list-style: none;
+}
+
+
+/* Footer css */
+
+.Footer_css{
+    width: -webkit-fill-available;
+    height: 60px;
+    top: 0;
+    z-index: 980;
+    
+}
+
+.Footer_css  nav{
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+.Footer_css li{
+    padding: 15px 20px;
+    float: left;
+    list-style: none;
+}
+
+
+/* gusdghdoufhodishoihoisdhgoishggoihaergihrihisdhflnfpiajspjsspfjpsdfhpa;Kas;kAS;Kasflihaoidghouhfjwgdugduofgoauwbdfjdgou */
+
+
+    /* Main container of project  */
+
+    .Main_container{
+        position: fixed;
+        display: flex;
+        width: 100%;
+        height: 100vh;
+    }
+
+
+/* .Second_Container of project which have header footer and body */
+.Second_Container{
+    width:  -webkit-fill-available;
+display: flex;
+flex-direction: column;
+}
+
+/* body containor which show all the detail of project  */
+.Body_containor{
+    background-color: antiquewhite;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px 80px;
+    overflow-y: scroll;
+}
+
+
+
+/* Employess_Form css */
+
+.Form{
+    display: flex;
+    flex-direction: column;
+    margin: 1% auto;
+    width: 630px;
+    justify-content: space-around;
+    border-radius: 60px;
+    background: #FFF;
+    border-radius:60px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.Form h1{
+    padding:25px;
+}
+
+.Employess_Form {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+.Form_lable{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    align-items: flex-start;
+    
+}
+
+
+.Field_css{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 14px;
+}
+
+/* Insert of new project Form  */
+
+
+#login-box {
+    position: absolute;
+   margin-left:340px;
+   margin-right: 340px;
+    width: 700px;
+    height: auto;
+    background: #FFF;
+    border-radius: 25px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  }
+
+  .left {
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    padding: 15px;
+    width: 300px;
+    height: 400px;
+  }
+
+
+
+
+/* sidenavigation css */
+.SideNavBarContainer{
+    display: flex;
+    flex-direction: column;
+    width: 160px;
+    height: 100vh;
+    background-color: rgb(43, 247, 16);
+    align-items: center;
+    align-content: center;
+}
+
+.SideNavBarContainer li{
+    list-style: none;
+    font-size: large;
+    padding: 15px 10px;
+}
+.SideNavBarContainer nav{
+    padding-top: 20px;
+}
+.SideNavBarContainer h3{
+    padding: 20px 5px
+}
+.SideNavBarContainer a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+.Filter_table_with_Add{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Filter_table_with_Add table{
+    margin-top: 20px;
+}
+
+
+.IconCss{
+    padding-left: 160px;
+}
+
+
+
+.buttonStyle{
+    margin: 35px;
+}
+
+
+
+
+/* .Form1 label{
+   position: relative;
+  width: 200px;
+   top:25px;
+}
+
+.Form1 input {
+    position: relative;
+    left: 195px;
+    width: 250px;
+}
+
+
+.Form1 textarea {
+    position: relative;
+    left: 195px;
+    width: 250px;
+}
+
+.Form1 select {
+    position: relative;
+    left: 195px;
+    width: 250px;
+} */
+
+
+
+ .Add_button{
+    position: relative;
+    left: 25px;
+}
+
+
+
+.Field_css1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+
+.MEMBER_DATA{
+    display: flex   ;
+    flex-direction: row;
+    padding-top: 15px;
+    justify-content: space-around;
+}
+
+
+
+.Field_css3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+    width: 360px;
+}
+
+
+
+.Form_lable3{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    align-items: flex-start;
+    margin-left: 80px;
+}
+.Form_lable3 svg{
+margin-right: 20px;
+}
+
+.NameOfMember{
+    margin-right:10px;
+}
+.NameOfMember2{
+    margin-right:10px;
+    margin-left: 10px;
+}
